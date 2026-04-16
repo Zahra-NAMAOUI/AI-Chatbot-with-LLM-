@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot with LLM 
+# 🤖 AI Chatbot with Local LLM (Ollama)
 
 A conversational AI chatbot built with **FastAPI** and **Ollama**, 
 running a local LLM (smollm:135m) with a clean web interface.
