@@ -27,7 +27,7 @@ A conversational AI system powered by a local **LLM (Ollama)**, designed with Fa
 
 ## 🧠 Architecture
 
-User → FastAPI Backend → Ollama (LLM) → Response → UI
+**User → FastAPI Backend → Ollama (LLM) → Response → UI**
 
 ---
 
