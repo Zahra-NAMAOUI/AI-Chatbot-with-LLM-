@@ -3,7 +3,7 @@
 A conversational AI chatbot built with **FastAPI** and **Ollama**, 
 running a local LLM (smollm:135m) with a clean web interface.
 
-![Chatbot Screenshot](screenshot.png)
+![Chatbot Screenshot](chat.jpg)
 
 ---
 
@@ -47,3 +47,31 @@ running a local LLM (smollm:135m) with a clean web interface.
 ```
 
 4. Open browser at:
+```bash
+   http://localhost:8000/test
+```
+### Option 2 — With Docker
+
+```bash
+docker compose up
+```
+Then open `http://localhost:8000/test`
+
+---
+
+## 📡 API Endpoints
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /test` | Chat web interface |
+| `GET /chat?prompt=...` | Send a message to the LLM |
+| `GET /model-info` | Get current model info |
+| `GET /switch-model?new_model=...` | Switch LLM model |
+| `GET /about` | About page |
+
+---
+
+## 👩‍💻 Author
+
+**Fatimazahra Namaoui** — Data & AI Engineering Student  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/fz-namaoui)
