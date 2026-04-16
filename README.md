@@ -31,6 +31,15 @@ User → FastAPI Backend → Ollama (LLM) → Response → UI
 
 ---
 
+## 🚀 Future Improvements
+
+- Add conversation memory (chat history)
+- Implement RAG with document retrieval
+- Add user authentication and session management
+- Deploy online (Hugging Face / Render)
+
+  ---
+
 ## ⚙️ How to Run
 
 ### Option 1 — Without Docker
