@@ -58,15 +58,6 @@ Then open `http://localhost:8000/test`
 
 ---
 
-## 📡 API Endpoints
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /test` | Chat web interface |
-| `GET /chat?prompt=...` | Send a message to the LLM |
-| `GET /model-info` | Get current model info |
-| `GET /switch-model?new_model=...` | Switch LLM model |
-| `GET /about` | About page |
 
 ---
 
