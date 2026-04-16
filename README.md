@@ -12,7 +12,6 @@ running a local LLM (smollm:135m) with a clean web interface.
 - Local LLM inference using Ollama (no API key needed)
 - REST API built with FastAPI
 - Clean chat web interface with dark/light theme
-- Switch between models dynamically
 - Containerized deployment with Docker
 
 ---
