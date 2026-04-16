@@ -58,9 +58,6 @@ Then open `http://localhost:8000/test`
 
 ---
 
-
----
-
 ## 👩‍💻 Author
 
 **Fatimazahra Namaoui** — Data & AI Engineering Student  
